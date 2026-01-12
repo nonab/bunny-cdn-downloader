@@ -21,6 +21,10 @@ Before you begin, ensure you have the following installed:
 3.  **N\_M3U8DL-RE**: This is the core downloader used by the script.
     -   Download the latest release from the [N\_m3u8DL-RE GitHub Releases page](https://github.com/nilaoda/N_m3u8DL-RE/releases).
     -   Place the executable in a folder that is included in your system's **PATH** environment variable.
+4.  **FFmpeg**: `N_M3U8DL-RE` requires FFmpeg to merge the downloaded video and audio segments into a single file.
+    -   Download the latest version from the official [FFmpeg website](https://ffmpeg.org/download.html).
+    -   Like the downloader, ensure the `ffmpeg` executable is also placed in a folder that is part of your system's **PATH**.
+       
 
 ## Installation
 
