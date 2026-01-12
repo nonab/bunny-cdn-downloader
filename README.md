@@ -29,7 +29,7 @@ Before you begin, ensure you have the following installed:
 
 2.  **Navigate to the project directory**:
     ```sh
-    cd /path/to/your/project
+    cd bunny-drm-downloader
     ```
 
 3.  **Create a Virtual Environment (Recommended)**:
