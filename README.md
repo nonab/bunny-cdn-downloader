@@ -49,7 +49,7 @@ Before you begin, ensure you have the following installed:
     ```
 
 5.  **Install Chromium**:
-    Playwright requires browser binaries to operate. Run the following command to install them.
+    Playwright requires a browser binary to operate. Run the following command to install firefox.
     ```sh
     playwright install firefox
     ```
