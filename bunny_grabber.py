@@ -60,7 +60,7 @@ async (masterPlaylistUrl) => {
 print("--- Starting URL Processing ---")
 with sync_playwright() as p:
     browser = p.firefox.launch(
-        headless=False,
+        headless=True,
         firefox_user_prefs={"media.volume_scale": "0.0"}
     )
     context = browser.new_context()
